@@ -21,10 +21,10 @@ dependencies {
 
 test {
 	useJUnitPlatform {
-		
-		testLogging {
+	}
+
+	testLogging {
 		events "passed", "skipped", "failed"
 		}
-	}
 	
 }
